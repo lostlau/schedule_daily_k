@@ -25,7 +25,7 @@ def get_index_components(index_code='399102'):
 获取股票列表的历史K线
     -- by baostock
 """
-def get_history_k(stock_list, stt_date, end_date, freq='d', adjust='2'):
+def get_history_k(stock_list, stt_date, end_date, freq='d', adjust='1'):
     bs.login()
     output_list = []
     for stk in stock_list:
